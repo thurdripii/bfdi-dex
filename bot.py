@@ -34,5 +34,5 @@ async def dex(ctx):
 
     await ctx.send(embed=embed)
 
+import os
 bot.run(os.getenv("TOKEN"))
-
